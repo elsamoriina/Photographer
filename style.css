@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    margin: 2rem;
+}
+.list ul li {
+    list-style: none;
+    padding: 26px;
+}
+.list ul li a {
+    text-decoration: none;
+    color: white;
+}
+.list ul li a:hover {
+    border-bottom: 2px solid orangered;
+}
+.logo p i {
+    padding: 14px;
+}
+.logo {
+    margin: 3rem;
+    color: white;
+}
+.contact button{
+    padding: 15px 32px;
+    border-radius: 50px 50px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.contact button:hover{
+    background-color: white;
+    color: orangered;
+}
+.contact {
+    margin: 2.5rem;
+}
+.home-section {
+    background-image: url('media/photographer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15rem;
+    position: relative;
+}
+.fk {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.home-section p {
+    margin: 1rem 0;
+}
+#btn-l {
+    padding: 14px;
+    border-radius: 50px 50px;
+    color: orangered;
+    background-color: #494848;
+    cursor: pointer;
+    border: none;
+}
+#btn-l:hover {
+    background-color: orangered;
+    color: darkgray;
+}
+#btn-k {
+    padding: 10px;
+    border-radius: 50px 50px;
+    background-color: #494848;
+    color: orangered;
+    cursor: pointer;
+    border: none;
+}
+#btn-k:hover {
+    background-color: orangered;
+    color: darkgray;
+}
+.home-nd {
+    margin: 3rem 0 1 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    text-align: center;
+    padding: 6rem;
+}
+.btn {
+    padding: 15px 32px;
+    margin: 3rem 5rem 0 0;
+    background-color: orangered;
+    color: white;
+    border-radius: 50px 50px;
+    cursor: pointer;
+    border: none;
+}
+h3 {
+    color: orangered;
+}
+.latest-work {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1050px;
+}
+.brws {
+    display: flex;
+    justify-content: center;
+}
+.album {
+    height: 400px;
+    width: 250px;
+    margin-bottom: 1rem;
+
+}
+.dk {
+    background-image: url('media/nature.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ek {
+    background-image: url('media/flowerss.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ik {
+    background-image: url('media/sea.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pk {
+    background-image: url('media/art.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+.album-name {
+    color: black;
+    margin-top: 18rem;
+}
+.album-name a {
+    text-decoration: none;
+}
+.hk {
+    background-image: url('media/couple.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gk {
+    background-image: url('media/birthday.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ok {
+    background-image: url('media/new\ year.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jk {
+    background-image: url('media/concert.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ck {
+    background-image: url('media/city.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ak {
+    background-image: url('media/technology.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.zk {
+    background-image: url('media/animals.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.xk {
+    background-image: url('media/travel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b-l-w {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.title-brws {
+    text-align: right;
+}
+.b-l-w {
+    display: flex;
+    justify-content: end;
+    margin-right: 13rem;
+    margin-bottom: 2rem;
+}
+.video-full {
+    margin: 6rem 0 0 0;
+}
+.saying-vd {
+    font-size: 18px;
+    text-align: center;
+}
+.fin {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    background-image: url('media/redroses.jpg');
+    background-size: cover;
+    padding: 60px;
+}
+.fin-k h1 {
+    margin-bottom: 1rem;
+}
+.fin-k p {
+    margin-bottom: 1rem;
+}
+.second-title {
+    margin-top: 2rem;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    color: orangered;
+}
+.footer-right {
+    display: flex;
+    margin-top: 3.5rem;
+    font-size: 19px;
+}
+.footer-right ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.right-left {
+    margin-left: 0;
+    margin-right: 4rem;
+}
+.footer-right ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+}
+.footer-right ul li a:hover {
+    border-bottom: 2px solid orangered;
+}
+.ll {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: white;
+}
+.footer-l {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.7rem;
+}
+.footer-l .right  a {
+    color: white;
+    padding: 5px;
+}
+.copy {
+    margin-top: 3rem;
+    text-align: center;
+    background-color: orangered;
+    padding: 7px;
+    font-weight: bold;
+    color: black;
+}
+.middle-line {
+    border-left: 6px solid orangered;
+    height: 250px;
+    margin-left: 3rem;
+    margin-right: 0;
+}
+.footer-left {
+    margin-top: 2.5rem;
+}
